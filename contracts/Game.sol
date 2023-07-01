@@ -7,8 +7,11 @@ contract Game {
     uint public participants;
     bool public allowTeams;
 
+    // using UIntFunctions  for uint;
+    //  praticipants.isEven() can directly use method on that type
+
     constructor(uint _participants) {
         participants = _participants;
-        allowTeams = UIntFunctions.isEven(_participants);
+        allowTeams = UIntFunctions.isEven(_participants); // one way to use library
     }
 }
