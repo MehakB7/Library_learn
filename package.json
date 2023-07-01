@@ -1,0 +1,25 @@
+{
+  "name": "library_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehakB7/Library_learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehakB7/Library_learn/issues"
+  },
+  "homepage": "https://github.com/MehakB7/Library_learn#readme",
+  "devDependencies": {
+    "hardhat": "^2.16.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
